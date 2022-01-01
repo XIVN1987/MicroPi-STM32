@@ -1,0 +1,404 @@
+{
+  "uuid": "cec2eb018fd947e3ef05ee7ec13f2e1a",
+  "path": "Offline/STM32RCv2",
+  "name": "STM32RCv2",
+  "content": "",
+  "created_at": "2021-12-26 13:38:36",
+  "updated_at": "2021-12-27 03:37:02",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "7ad6539af3777bd098f0c162f2957cfe",
+      "title": "STM32RC.LCSch",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "373e64fbaf444eb09ab2b30417ede20e": 1,
+        "d851786b5c664ff789b13c0741460439": 1,
+        "97e3dfd84929426786ec7929e48dfb0d": 1,
+        "a68dc5e6a9944c46b7604648a43dcd65": 1,
+        "72935fd9984c4b56a59640e39bf9e91f": 1,
+        "6863e17fed0d4f3e88e0e396c3394ffa": 3,
+        "2f4df48f891746dc82e094dbfb594eea": 2,
+        "6fab5de1072f405abacb6db285c8682c": 2,
+        "8878d02d187141a2a7e4224915ccbf74": 1,
+        "0649fac64bfc463b974c5570d9da6505": 1,
+        "ba632830bf9146bda467b81ae90ec824": 2,
+        "d3b21df07c1b4469b24b7b479711d833": 1,
+        "273e3f745317448bad0b512eea2bc0c5": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "1TS002B-2600-4301",
+          3,
+          "SW-SMD_L6.0-W3.5_1TS002B-2600-4301-CT",
+          "BTN1,BTN2,RST",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C318835",
+            "BOM_Manufacturer": "HYP",
+            "BOM_Manufacturer Part": "1TS002B-2600-4301",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "ce559ee3429f411aaa8e56fd5bef0964",
+            "uuid": "6863e17fed0d4f3e88e0e396c3394ffa"
+          }
+        ],
+        [
+          "10uF",
+          3,
+          "C0805",
+          "C0,C1,C7",
+          {
+            "puuid": "2ee8eb13a0124a108e622ce40c0c25a8",
+            "uuid": ""
+          }
+        ],
+        [
+          "0.1uF",
+          4,
+          "C0603",
+          "C2,C3,C4,C5",
+          {
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": ""
+          }
+        ],
+        [
+          "1uF",
+          3,
+          "C0603",
+          "C6,C8,C9",
+          {
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": ""
+          }
+        ],
+        [
+          "22pF",
+          6,
+          "C0603",
+          "C10,C11,C12,C13,C14,C15",
+          {
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": ""
+          }
+        ],
+        [
+          "1N5818W",
+          2,
+          "SOD-123FL_L2.8-W1.8-LS3.7-RD",
+          "D0,D1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C437955",
+            "BOM_Manufacturer": "Shandong Jingdao Microelectronics",
+            "BOM_Manufacturer Part": "1N5818W",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "b1af29dd77aa430688a46d060eb7bb1a",
+            "uuid": "2f4df48f891746dc82e094dbfb594eea"
+          }
+        ],
+        [
+          "NO",
+          6,
+          "LED0805-FD",
+          "LED1,LED2,PWR,RXD,SWD,TXD",
+          {
+            "puuid": "c34f9773d89049f99a2880176e0a1d56",
+            "uuid": ""
+          }
+        ],
+        [
+          "HDR-M-2.54_1x3",
+          1,
+          "HDR-M-2.54_1X3",
+          "P0",
+          {
+            "BOM_Supplier Part": "C180248",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "9f77654394344f25b3de138e0fe05ff6",
+            "uuid": "a68dc5e6a9944c46b7604648a43dcd65"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x20",
+          1,
+          "HDR-M-2.54_1X20",
+          "PA",
+          {
+            "BOM_Supplier Part": "C50981",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "fa8b3531a8854d41bcf2c462cb2bfc07",
+            "uuid": "d851786b5c664ff789b13c0741460439"
+          }
+        ],
+        [
+          "HDR-M-2.54_1x16",
+          1,
+          "HDR-M-2.54_1X16",
+          "PB",
+          {
+            "BOM_Supplier Part": "C50981",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "b811781e2b834ff7927ba9960dacf589",
+            "uuid": "97e3dfd84929426786ec7929e48dfb0d"
+          }
+        ],
+        [
+          "510",
+          6,
+          "R0805",
+          "R0,R1,R2,R3,R4,R5",
+          {
+            "puuid": "b60f399a7a7e41848b2be1eb49c79141",
+            "uuid": ""
+          }
+        ],
+        [
+          "10k",
+          6,
+          "R0603",
+          "R6,R20,R21,R22,R23,R24",
+          {
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": ""
+          }
+        ],
+        [
+          "1.5k",
+          1,
+          "R0603",
+          "R7",
+          {
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": ""
+          }
+        ],
+        [
+          "10K",
+          2,
+          "R0603",
+          "R8,R9",
+          {
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": ""
+          }
+        ],
+        [
+          "5.1k",
+          4,
+          "R0603",
+          "R10,R11,R12,R13",
+          {
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": ""
+          }
+        ],
+        [
+          "0",
+          6,
+          "R0603",
+          "R14,R15,R16,R17,R18,R19",
+          {
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": ""
+          }
+        ],
+        [
+          "TF-01A_C2889258",
+          1,
+          "TF-SMD_TF-02",
+          "TF",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C2889258",
+            "BOM_Manufacturer": "Yuandi(台湾元迪)",
+            "BOM_Manufacturer Part": "TF-01A",
+            "puuid": "cb77d904356143e1bae81db5a65be1d1",
+            "uuid": "72935fd9984c4b56a59640e39bf9e91f"
+          }
+        ],
+        [
+          "M482ZID",
+          1,
+          "QFN-32_5X5X05P",
+          "U0",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "54e59ab03a194a8bb47eab7cb6856e81",
+            "uuid": "373e64fbaf444eb09ab2b30417ede20e"
+          }
+        ],
+        [
+          "STM32F103RCT7",
+          1,
+          "LQFP-64_L10.0-W10.0-P0.50-LS12.0-BL",
+          "U1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C882165",
+            "BOM_Manufacturer": "STMicroelectronics",
+            "BOM_Manufacturer Part": "STM32F103RCT7",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "2afd511af2e94adea785d3da1efd72a1",
+            "uuid": "0649fac64bfc463b974c5570d9da6505"
+          }
+        ],
+        [
+          "W25Q128JVSIQ",
+          1,
+          "SOIC-8_L5.3-W5.3-P1.27-LS8.0-BL",
+          "U2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C113767",
+            "BOM_Manufacturer": "Winbond Elec",
+            "BOM_Manufacturer Part": "W25Q128JVSIQ",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "fdf2396de7694c3e8177c1c94fe2bbcd",
+            "uuid": "8878d02d187141a2a7e4224915ccbf74"
+          }
+        ],
+        [
+          "KH-TYPE-C-16P-T",
+          2,
+          "USB-C-SMD_KH-TYPE-C-16P",
+          "USB0,USB1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C709358",
+            "BOM_Manufacturer": "Shenzhen Kinghelm Elec",
+            "BOM_Manufacturer Part": "KH-TYPE-C-16P-T",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "b009d24572744c3f95bd86bd402ef047",
+            "uuid": "6fab5de1072f405abacb6db285c8682c"
+          }
+        ],
+        [
+          "AMS1117",
+          1,
+          "SOT-223-4_L6.5-W3.5-P2.30-LS7.0-BR",
+          "V0",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "AMS",
+            "BOM_Manufacturer Part": "AMS1117-2.5",
+            "BOM_Supplier Part": "C12087",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "09952c2799c54b76904e264324ada8f3",
+            "uuid": "273e3f745317448bad0b512eea2bc0c5"
+          }
+        ],
+        [
+          "12MHz",
+          1,
+          "OSC-SMD_L5.0-W3.2",
+          "Y0",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "YXC",
+            "BOM_Manufacturer Part": "X503212MSB2GI",
+            "BOM_Supplier Part": "C112573",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "9cd066887af54f0aac5b5d84976dee43",
+            "uuid": "ba632830bf9146bda467b81ae90ec824"
+          }
+        ],
+        [
+          "8MHz",
+          1,
+          "OSC-SMD_L5.0-W3.2",
+          "Y1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "YXC",
+            "BOM_Manufacturer Part": "X503212MSB2GI",
+            "BOM_Supplier Part": "C112573",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "9cd066887af54f0aac5b5d84976dee43",
+            "uuid": "ba632830bf9146bda467b81ae90ec824"
+          }
+        ],
+        [
+          "32.768KHz",
+          1,
+          "OSC-SMD_L3.2-W1.5",
+          "Y2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C252398",
+            "BOM_Manufacturer": "SHENZHEN CRYSTAL TECH",
+            "BOM_Manufacturer Part": "7LC32768F12UC",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "45db180873d642278c39de0d6e7e5473",
+            "uuid": "d3b21df07c1b4469b24b7b479711d833"
+          }
+        ]
+      ],
+      "updateTime": 1640543093,
+      "createTime": 1640497176,
+      "histories": [],
+      "created_at": "2021-12-26 13:39:36",
+      "updated_at": "2021-12-27 02:24:53"
+    },
+    {
+      "uuid": "f88f51c0c90b73e13d980da4a39a7a42",
+      "puuid": "cec2eb018fd947e3ef05ee7ec13f2e1a",
+      "title": "STM32RC.LCPcb",
+      "filename": "STM32RC.LCPcb.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "ce559ee3429f411aaa8e56fd5bef0964": 3,
+        "2ee8eb13a0124a108e622ce40c0c25a8": 3,
+        "f8151fdc728a41ebbc304e11d39e5437": 13,
+        "b1af29dd77aa430688a46d060eb7bb1a": 2,
+        "c34f9773d89049f99a2880176e0a1d56": 6,
+        "9f77654394344f25b3de138e0fe05ff6": 1,
+        "fa8b3531a8854d41bcf2c462cb2bfc07": 1,
+        "b811781e2b834ff7927ba9960dacf589": 1,
+        "b60f399a7a7e41848b2be1eb49c79141": 6,
+        "398691f1f785460098bbe5ee6590333c": 19,
+        "54e59ab03a194a8bb47eab7cb6856e81": 1,
+        "2afd511af2e94adea785d3da1efd72a1": 1,
+        "fdf2396de7694c3e8177c1c94fe2bbcd": 1,
+        "b009d24572744c3f95bd86bd402ef047": 2,
+        "09952c2799c54b76904e264324ada8f3": 1,
+        "9cd066887af54f0aac5b5d84976dee43": 2,
+        "45db180873d642278c39de0d6e7e5473": 1,
+        "cb77d904356143e1bae81db5a65be1d1": 1
+      },
+      "BOM": [],
+      "updateTime": 1640547422,
+      "createTime": 1640497232,
+      "histories": [],
+      "created_at": "2021-12-26 13:40:32",
+      "updated_at": "2021-12-27 03:37:02"
+    }
+  ],
+  "sort": [],
+  "title": "STM32RCv2",
+  "foldername": "STM32RCv2",
+  "schfilename": "STM32RCv2.json",
+  "schfilemtime": 1640543093953
+}
